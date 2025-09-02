@@ -1,0 +1,27 @@
+Agenda:
+
+Unit 1 :
+Internet of Things
+Building blocks
+Architecture of IoT
+Sensors,Actuators
+Applications of IoT
+Assignment :
+1. Install sensor box app in your
+mobile phone and explore all sensors
+2. Explore technology behind automatic traffic
+signal in Bengaluru.Come up with architecture
+diagram 
+
+www.google.com
+
+3. Introduction to Unit 2
+
+
+
+
+
+Architecture of IoT 
+
+
+

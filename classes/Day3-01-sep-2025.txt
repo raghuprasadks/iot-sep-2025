@@ -1,0 +1,106 @@
+Agenda:
+1. http over REST
+
+Web services
+SOAP
+REST - JSON
+Java Script
+Object
+student={
+id:1,
+name:'Ganesh',
+course:"MCA",
+sem:3
+}
+
+students=[
+{
+id:1,
+name:'Ganesh',
+course:"MCA",
+sem:3
+},
+{
+id:2,
+name:'Gowri',
+course:"MCA",
+sem:3
+}
+]
+
+JSON-Java Script Object Notation
+
+student={
+"id":1,
+"name":"Ganesh",
+"course":"MCA",
+"sem":3
+}
+
+http - methods
+post,get,update,delete
+
+CRUD
+
+https://jsonplaceholder.typicode.com/
+
+URL end point
+https://jsonplaceholder.typicode.com/posts
+
+
+https://jsonplaceholder.typicode.com/posts - get method
+{
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  }
+
+https://jsonplaceholder.typicode.com/posts/1
+https://jsonplaceholder.typicode.com/users
+https://openweathermap.org/
+bangalore
+
+https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
+
+
+https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=384db1ce93218e20fd384d3016372238
+
+
+MQTT
+
+https://mosquitto.org/
+
+https://mosquitto.org/download/
+
+mosquitto-2.0.22-install-windows-x64.exe
+
+C:\Program Files\mosquito
+
+cloud based test mosquitto
+mosquitto_sub -h test.mosquitto.org -p 1883 -t "test"
+mosquitto_pub -h test.mosquitto.org -p 1883 -t "test" –m "this is for testing"
+
+local mosquitto
+mosquitto_sub -h localhost -p 1883 -t "topic"
+mosquitto_pub -h localhost -p 1883 -t "topic" -m "this is for testing"
+
+
+mosquitto_pub -h localhost -p 1883 -t "home/room1/sensor" -m "{\"roomtemp\":28.5, \"humidity\":65}"
+
+mosquitto_sub -h localhost -p 1883 -t "home/room1/sensor"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

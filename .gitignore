@@ -1,0 +1,8 @@
+# Ignore virtual environment in programs\mqttdemo
+programs/mqttdemo/myenv/
+programs/mqttdemo/myenv/**
+programs/mqttdemo/__pycache__/
+programs/mqttdemo/*.pyc
+programs/mqttdemo/*.pyo
+programs/mqttdemo/*.pyd
+programs/mqttdemo/.vscode/

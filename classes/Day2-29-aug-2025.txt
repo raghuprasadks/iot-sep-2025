@@ -1,0 +1,10 @@
+Agenda:
+Unit 2:
+
+1. Protocols
+http - 80
+https - 443
+ftp - 21
+
+2. IoT protocols
+3. OSI models
