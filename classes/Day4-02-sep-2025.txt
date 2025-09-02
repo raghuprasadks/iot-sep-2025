@@ -1,0 +1,38 @@
+Recap - 
+
+MQTT
+1.Python Programs
+course material
+www.kaushalya.tech
+click on git link
+Repositories
+https://github.com/raghuprasadks/iot-sep-2025
+using MQTT
+mosquitto_pub -h localhost -p 1883 -t "home/room1/sensor" -m "{\"roomtemp\":28.5, \"humidity\":65}"
+
+Create mqttdemo folder
+cd to mqttdemo folder
+Create virtual environment using python –m venv venv
+Active virtual environment using .\venv\Scripts\activate
+Install paho-mqtt using 
+	pip install paho-mqtt
+6. Create mqttdemo_publish.py 
+7. Create mqttdemo_subscribe.py
+8. Ensure that mosquitto broker is running
+8. Run both the programs using 
+python mqttdemo_publish.py
+python mqttdemo_subscribe.py
+
+
+Module 3
+Prototyping
+
+download arduino ide
+
+https://www.arduino.cc/en/software/
+
+
+
+
+
+2. COAP
