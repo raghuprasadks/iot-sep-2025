@@ -1,2 +1,8 @@
 Agenda:
 1. Prototyping using Arduino
+
+wokwi.com
+
+arduino temperature and humidity sensor
+
+https://github.com/adafruit/DHT-sensor-library
