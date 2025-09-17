@@ -1,0 +1,13 @@
+Agenda:
+1. Unit 5 -
+IoT usecases
+CISCO - IoT
+OEM
+Routers,switches,entire network
+System - 
+devices 
+
+sensors/actuators
+network
+hub
+cloud
